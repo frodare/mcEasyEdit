@@ -1,0 +1,24 @@
+{
+  "name": "mc-easy-edit",
+  "version": "1.0.0",
+  "description": "A Simple Online Minecraft Texture Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frodare/mcEasyEdit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frodare/mcEasyEdit/issues"
+  },
+  "homepage": "https://github.com/frodare/mcEasyEdit#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  }
+}

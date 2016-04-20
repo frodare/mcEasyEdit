@@ -33,3 +33,6 @@ node_modules
 .node_repl_history
 
 bower_components
+bundle.js
+bundle.min.js
+bundle.js.map
