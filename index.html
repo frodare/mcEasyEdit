@@ -1,28 +1,34 @@
 <!DOCTYPE html> 
 <html lang="en"> 
-    <head> 
-        <meta charset="utf-8"> 
-        <title>Canvas Image Editor</title> 
-        <link rel="stylesheet" href="bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css"> 
-    </head> 
-    <body> 
-        <div id="imageEditor"> 
-            <section id="editorContainer"> 
-                <canvas id="editor" width="550" height="480"></canvas> 
-            </section> 
-            <section id="toolbar"> 
-                <a id="save" href="#" title="Save">Save</a> 
-                <a id="rotateL" href="#" title="Rotate left">Rotate Left</a> 
-                <a id="rotateR" href="#" title="Rotate right">Rotate Right</a> 
-                <a id="resize" href="#" title="Resize">Resize</a> 
-                <a id="greyscale" href="#" title="Convert to grayscale">B&W</a> 
-                <a id="sepia" href="#" title="Convert to sepia tone">Sepia</a> 
-            </section> 
-        </div> 
-        <!--
-        <script src="bower_components/jquery/dist/jquery.js"></script> 
-        <script src="bower_components/jquery-ui/jquery-ui.js"></script> 
-        -->
-         <script src="bundle.js"></script> 
-    </body> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title>MC Easy Edit</title> 
+	</head> 
+	<body>
+		
+		<div class="app">
+
+			<div class="editor-wrapper">
+				
+
+				<canvas id="grid"></canvas>
+				<canvas id="editor"></canvas>
+
+				
+				
+			</div>
+
+			<div class="tools">
+				<div id="current-color">
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+		<script src="bundle.js"></script> 
+	</body> 
 </html>
