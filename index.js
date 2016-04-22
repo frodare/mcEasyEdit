@@ -10,7 +10,7 @@ $(function () {
 });
 
 var load = function () { 
-	canvas.loadImage('img/heavyDiamondArmor_layer_1.png');
+	canvas.loadImage('img/frodare.png');
 
 	
 

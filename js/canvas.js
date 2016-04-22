@@ -1,6 +1,7 @@
 var canvas = document.getElementById("editor"), 
 	context = canvas.getContext("2d"),
 	grid = require('./grid.js'),
+	outlines = require('./outlines.js'),
 	scale = 10,
 	color = null,
 	currentColor = document.getElementById("current-color"),
@@ -12,7 +13,7 @@ document.oncontextmenu = function(ev){
 
 
 //grid.canvas.addEventListener('mousedown', mousedownHandler, false);
-canvas.addEventListener('mousedown', mousedownHandler, false);
+outlines.canvas.addEventListener('mousedown', mousedownHandler, false);
 
 
 function loadImage(src) { 
@@ -35,6 +36,7 @@ function setImage(img) {
     canvas.height = h;
 
     grid.setSize(w, h);
+    outlines.setModel('skin', scale);
     
     context.scale(scale, scale);
     context.imageSmoothingEnabled = false;

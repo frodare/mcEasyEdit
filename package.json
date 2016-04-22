@@ -18,6 +18,8 @@
   "homepage": "https://github.com/frodare/mcEasyEdit#readme",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "jquery": "^2.2.3",
+    "jquery-ui": "^1.10.5",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0"
   }

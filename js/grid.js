@@ -2,18 +2,6 @@ var canvas = document.getElementById("grid"),
 	context = canvas.getContext("2d"),
 	w = 0,
 	h = 0;
-	
-function loadImage(src) { 
-	var dfd = $.Deferred();
-	var image = $("<img/>", { 
-		src: src, 
-		load: function() {
-			setImage(this);
-			dfd.resolve(this);
-		}
-	});
-	return dfd;
-}
 
 function setSize(wIn, hIn) {
 	w = wIn;
