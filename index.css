@@ -1,13 +1,11 @@
 .app { 
 	position: relative;
-	width: 800px;
-	overflow: auto;
-	height: 600px
+	
 }
 
 
 .editor-wrapper { 
-	
+	cursor: pointer;
 
 }
 
@@ -17,6 +15,9 @@
 	left:0;
 }
 
+img#preview {
+	border:1px solid #ccc;
+}
 
 .tools { 
 	position: absolute;

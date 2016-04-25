@@ -41,9 +41,6 @@ models.skin = [
 		label: 'Head Right Side',
 		section: [0,8,8,8]
 	},{
-		label: 'Head Right Side',
-		section: [0,8,8,8]
-	},{
 		label: 'Head Left Side',
 		section: [16,8,8,8]
 	},{
@@ -58,9 +55,6 @@ models.skin = [
 	},{
 		label: 'Head2 Face',
 		section: [8+32,8,8,8]
-	},{
-		label: 'Head2 Right Side',
-		section: [0+32,8,8,8]
 	},{
 		label: 'Head2 Right Side',
 		section: [0+32,8,8,8]
@@ -134,16 +128,16 @@ models.skin = [
 		label: 'RArm Top',
 		section: [44,16,4,4]
 	},{
-		label: 'RArm Bot',
+		label: 'RArm Bottom',
 		section: [48,16,4,4]
 	},{
-		label: 'RArm Out',
+		label: 'RArm Outter',
 		section: [40,20,4,12]
 	},{
-		label: 'RArm Frt',
+		label: 'RArm Front',
 		section: [44,20,4,12]
 	},{
-		label: 'RArm In',
+		label: 'RArm Inside',
 		section: [48,20,4,12]
 	},{
 		label: 'RArm Back',
@@ -155,16 +149,16 @@ models.skin = [
 		label: 'RArm2 Top',
 		section: [44,16+16,4,4]
 	},{
-		label: 'RArm2 Bot',
+		label: 'RArm2 Bottom',
 		section: [48,16+16,4,4]
 	},{
-		label: 'RArm2 Out',
+		label: 'RArm2 Outter',
 		section: [40,20+16,4,12]
 	},{
-		label: 'RArm2 Frt',
+		label: 'RArm2 Front',
 		section: [44,20+16,4,12]
 	},{
-		label: 'RArm2 In',
+		label: 'RArm2 Inside',
 		section: [48,20+16,4,12]
 	},{
 		label: 'RArm2 Back',
@@ -180,13 +174,13 @@ models.skin = [
 		section: [28,16+16,8,4]
 	},
 	{
-		label: 'Torso2 R',
+		label: 'Torso2 Right',
 		section: [16,20+16,4,12]
 	},{
 		label: 'Torso2 Front',
 		section: [20,20+16,8,12]
 	},{
-		label: 'Torso2 L',
+		label: 'Torso2 Left',
 		section: [28,20+16,4,12]
 	},{
 		label: 'Torso2 Back',
@@ -197,16 +191,16 @@ models.skin = [
 		label: 'RLeg2 Top',
 		section: [4,16+16,4,4]
 	},{
-		label: 'RLeg2 Bott',
+		label: 'RLeg2 Bottom',
 		section: [8,16+16,4,4]
 	},{
-		label: 'RLeg2 Out',
+		label: 'RLeg2 Outter',
 		section: [0,20+16,4,12]
 	},{
 		label: 'RLeg2 Front',
 		section: [4,20+16,4,12]
 	},{
-		label: 'RLeg2 In',
+		label: 'RLeg2 Inner',
 		section: [8,20+16,4,12]
 	},{
 		label: 'RLeg2 Back',
@@ -218,7 +212,7 @@ models.skin = [
 		label: 'LLeg2 Top',
 		section: [4,16+32,4,4]
 	},{
-		label: 'LLeg2 Bott',
+		label: 'LLeg2 Bottom',
 		section: [8,16+32,4,4]
 	},{
 		label: 'LLeg2 Out',
@@ -227,7 +221,7 @@ models.skin = [
 		label: 'LLeg2 Front',
 		section: [4,20+32,4,12]
 	},{
-		label: 'LLeg2 In',
+		label: 'LLeg2 Inner',
 		section: [8,20+32,4,12]
 	},{
 		label: 'LLeg2 Back',
@@ -239,16 +233,16 @@ models.skin = [
 		label: 'LLeg Top',
 		section: [4+16,16+32,4,4]
 	},{
-		label: 'LLeg Bott',
+		label: 'LLeg Bottom',
 		section: [8+16,16+32,4,4]
 	},{
-		label: 'LLeg Out',
+		label: 'LLeg Outter',
 		section: [0+16,20+32,4,12]
 	},{
 		label: 'LLeg Front',
 		section: [4+16,20+32,4,12]
 	},{
-		label: 'LLeg In',
+		label: 'LLeg Inner',
 		section: [8+16,20+32,4,12]
 	},{
 		label: 'LLeg Back',
@@ -260,13 +254,13 @@ models.skin = [
 		label: 'LArm Top',
 		section: [36,48,4,4]
 	},{
-		label: 'LArm Bott',
+		label: 'LArm Bottom',
 		section: [40,48,4,4]
 	},{
 		label: 'LArm Right',
 		section: [32,52,4,12]
 	},{
-		label: 'LArm Frt',
+		label: 'LArm Front',
 		section: [32+4,52,4,12]
 	},{
 		label: 'LArm Left',
@@ -276,20 +270,18 @@ models.skin = [
 		section: [32+12,52,4,12]
 	},
 
-	/*
+	
 	{
 		label: 'LArm2 Top',
-		section: [36,48,4,4]
+		section: [32+16+4,48,4,4]
 	},{
 		label: 'LArm2 Bott',
-		section: [40,48,4,4]
-	}
-	,*/
-	{
+		section: [32+16+8,48,4,4]
+	},{
 		label: 'LArm2 Right',
 		section: [32+16,52,4,12]
 	},{
-		label: 'LArm2 Frt',
+		label: 'LArm2 Front',
 		section: [32+4+16,52,4,12]
 	},{
 		label: 'LArm2 Left',
@@ -323,7 +315,16 @@ function outline(modelPart) {
 	context.moveTo(x2, y1);
 	context.lineTo(x2, y2);
 
-	context.fillText(modelPart.label, c(sec[0] + sec[2]/2), c(sec[1] + sec[3]/2));
+	var a = modelPart.label.split(' '),
+		x = c(sec[0] + sec[2]/2),
+		y = c(sec[1] + sec[3]/2) ,
+		i;
+
+	for(i = 0; i < a.length; i++){
+		context.fillText(a[i], x, y + i * 10);
+	}
+
+	//context.fillText(modelPart.label, c(sec[0] + sec[2]/2), c(sec[1] + sec[3]/2));
 }
 
 function drawSkinOutlines() {
